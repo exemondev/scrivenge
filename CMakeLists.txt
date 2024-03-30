@@ -6,6 +6,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(INCLUDE
     ./includes/view_window_type.hpp
+    
+    ./includes/controller_base.hpp
 )
 
 set(SOURCE

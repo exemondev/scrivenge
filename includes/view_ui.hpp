@@ -6,7 +6,8 @@ namespace View
     class IUi
     {
     public:
-        ~Ui() = default;
+        IUi() = default;
+        virtual ~IUi() = default;
         virtual void display() = 0;
         virtual void init() = 0;
         virtual void addNewWindow() = 0;
