@@ -1,0 +1,2 @@
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++2a -pedantic-errors -Wall -Werror -Wshadow -Weffc++ -Wextra -Wsign-conversion -Wunused-result -fsanitize=address,undefined")
+# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++2a  -Wshadow -Weffc++ -fsanitize=address,undefined")
