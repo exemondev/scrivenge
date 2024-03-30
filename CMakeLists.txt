@@ -5,13 +5,21 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(INCLUDE
+    ./includes/view_ui.hpp
     ./includes/view_window_type.hpp
-    
+    ./includes/view_window_geometry.hpp
+    ./includes/view_window.hpp
+    ./includes/view_cli_window.hpp
+
     ./includes/controller_base.hpp
 )
 
 set(SOURCE
     ./src/main.cpp
+
+    ./src/view_window_geometry.cpp
+    ./src/view_cli_window.cpp
+
 )
 
 include(${CMAKE_SOURCE_DIR}/compiler_flags.cmake)
